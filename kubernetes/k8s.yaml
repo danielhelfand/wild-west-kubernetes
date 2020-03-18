@@ -16,7 +16,7 @@ spec:
       terminationGracePeriodSeconds: 0
       containers:
       - name: wildwest
-        image: 10.106.168.208:5000/wild-west-kubernetes:latest
+        image: registry.default.svc.cluster.local/wild-west-kubernetes:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
